@@ -23,19 +23,22 @@
     
     <!-- START MAIN CONTAINER -->
     <div class="container-fluid bg-white p-0 m-0">
+        <!--******************* HEADER *******************-->
+        <!-- START "Header" -->
         <header class="own-bgcolor text-white p-2">
             <h1 class="text-center m-0">CF Restaurant</h1>
-        </header>
+        </header> <!-- END "Header" -->
 
+        <!--******************* HERO IMAGE *******************--> <!-- Start "Hero" Image -->
         <div class="bg-image own-center-cropped" style="background-image: linear-gradient(rgba(255,255,255,0), rgba(153, 0, 18, 1)), url('img/hero1.jpg');height:25vh;">
         <!-- <div class="bg-image own-center-cropped"> -->
         </div>
         <!-- END "Hero" Image -->
 
-        <!--  START "Navbar" right -->
+        <!--******************* NAVBAR *******************-->
+        <!-- START "Navbar" right -->
         <nav class="navbar navbar-expand-lg navbar-dark own-bgcolor">
             <div class="container-fluid">
-              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
               <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -50,19 +53,26 @@
                 </ul>
               </div>
             </div>
-        </nav> <!-- END "Navbar" Right -->        
-        
+        </nav> <!-- END "Navbar" Right -->  
+
+        <!--******************* STARTER SECTION *******************-->
         <section class="m-4 mt-md-3"> <!--START  "Starter" Section--> 
             <h2 class="text-center m-3 m-md-4">Starters</h2>
-            <div class="row row-cols-1 row-cols-md-2 g-4"> <!--Start "Starter" Grid --> 
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 g-xxl-5 px-2 px-md-4 pb-4 mx-auto"> <!--Start "Starter" Grid --> 
                 <!-- Start Beef Soup -->
                 <div class="col col-md-6 col-lg-3">
                     <div class="card">
-                        <img src="img/starter1_beefsoup_new.jpg" class="img-fluid rounded-start" alt="Beef Soup">
-                        <div class="card-body">
-                            <h5 class="card-title">Beef Soup</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text fw-bold">&euro;4.95</p>
+                        <div class="row g-0">
+                            <div class="col-12 col-md-5 col-lg-12 order-2 order-md-1 order-lg-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Beef Soup</h5>
+                                    <p class="card-text">Soup made with home-made bone broth &amp; mirepoix</p>
+                                     <p class="card-text fw-bold">&euro;4.95</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-12 order-1 order-md-2 order-lg-1">
+                                <img src="img/starter1_beefsoup_new.jpg" class="img-fluid rounded-start h-100" alt="Beef Soup">
+                            </div>
                         </div>
                     </div>
                 </div> <!-- End Beef Soup -->
@@ -70,43 +80,222 @@
                 <!-- Start Pumpkin Soup -->
                 <div class="col col-md-6 col-lg-3">
                     <div class="card">
-                        <img src="img/starter2_pumpkinsoup_new.jpg" class="img-fluid rounded-start" alt="Pumpkin Soup">
-                        <div class="card-body">
-                            <h5 class="card-title">Pumpkin Soup (vegan)</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text fw-bold">&euro;3.99</p>
+                        <div class="row g-0">
+                            <div class="col-12 col-md-5 col-lg-12 order-2 order-md-1 order-lg-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pumpkin Soup <small>(vegan)</small></h5>
+                                    <p class="card-text">Soup made with home-made bone broth &amp; mirepoix.</p>
+                                    <p class="card-text fw-bold">&euro;3.99</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-12 order-1 order-md-2 order-lg-1">
+                                <img src="img/starter2_pumpkinsoup_new.jpg" class="img-fluid rounded-start h-100" alt="Pumpkin Soup (vegan)">
+                            </div>
                         </div>
                     </div>
                 </div> <!-- End Pumpkin Soup -->
 
+
                 <!-- Start Smoothie -->
                 <div class="col col-md-6 col-lg-3">
                     <div class="card">
-                        <img src="img/starter3_smoothie_new.jpg" class="img-fluid rounded-start" alt="Smoothie">
-                        <div class="card-body">
-                            <h5 class="card-title">Smoothie</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text fw-bold">&euro;3.49</p>
+                        <div class="row g-0">
+                            <div class="col-12 col-md-5 col-lg-12 order-2 order-md-1 order-lg-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Smoothie (vegan)</h5>
+                                    <p class="card-text">-.</p>
+                                    <p class="card-text fw-bold">&euro;3.49</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-12 order-1 order-md-2 order-lg-1">
+                                <img src="img/starter3_smoothie_new.jpg" class="img-fluid rounded-start h-100" alt="Pumpkin Soup (vegan)">
+                            </div>
                         </div>
                     </div>
                 </div> <!-- End Smoothie -->
                 
                 <!-- Start Sushi -->
-                <div class="col col-md-6 col-lg-3">
+                <div class="col col-md-6 col-lg-3"> 
                     <div class="card">
-                        <img src="img/starter4_sushi_new.jpg" class="img-fluid rounded-start" alt="Beef Soup">
-                        <div class="card-body">
-                            <h5 class="card-title">Sushi</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text fw-bold">&euro;4.99</p>
+                        <div class="row g-0">
+                            <div class="col-12 col-md-5 col-lg-12 order-2 order-md-1 order-lg-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sushi</h5>
+                                    <p class="card-text">-.</p>
+                                    <p class="card-text fw-bold">&euro;4.99</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-12 order-1 order-md-2 order-lg-1">
+                                <img src="img/starter4_sushi_new.jpg" class="img-fluid rounded-start h-100" alt="Sushi">
+                            </div>
                         </div>
                     </div>
-                </div> <!-- End Sushi -->               
-
+                </div> <!-- End Sushi -->
             </div>  <!--END "Starter" Grid --> 
 
-        
         </section> <!-- END  "Starter" Section -->
+
+        <!--******************* MAIN SECTION *******************-->
+        <section class="m-4 mt-md-3"> <!--START  "Main" Section--> 
+            <h2 class="text-center m-3 m-md-4">Main</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 g-xxl-5 px-2 px-md-4 pb-4 mx-auto"> <!--Start "Main" Grid --> 
+                <!-- Start Rib-Eye Steak -->
+                <div class="col col-md-6 col-lg-3"> 
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-5 col-lg-12 order-2 order-md-1 order-lg-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rib-Eye Steak</h5>
+                                    <p class="card-text">-.</p>
+                                    <p class="card-text fw-bold">&euro;9.99</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-12 order-1 order-md-2 order-lg-1">
+                                <img src="img/main1_steak_new.jpg" class="img-fluid rounded-start h-100" alt="Rib-Eye Steak">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Rib-Eye Steak -->
+
+                <!-- Start Pizza Cardinale -->
+                <div class="col col-md-6 col-lg-3"> 
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-12 col-md-5 col-lg-12 order-2 order-md-1 order-lg-2">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pizza Cardinale &Oslash; 33cm</h5>
+                                        <p class="card-text">Pizza with ham, olives, bell peppers &amp; mushrooms and a diameter of 33cm.</p>
+                                        <p class="card-text fw-bold">&euro;8.45</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-7 col-lg-12 order-1 order-md-2 order-lg-1">
+                                    <img src="img/main2_pizzaham_new.jpg" class="img-fluid rounded-start h-100" alt="Pizza with Ham">
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End Pizza Cardinale -->
+
+                <!-- Start Salmon with Veggies -->
+                <div class="col col-md-6 col-lg-3"> 
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-5 col-lg-12 order-2 order-md-1 order-lg-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Salmon with Veggies</h5>
+                                    <p class="card-text">-.</p>
+                                    <p class="card-text fw-bold">&euro;6.99</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-12 order-1 order-md-2 order-lg-1">
+                                <img src="img/main3_salmon_new.jpg" class="img-fluid rounded-start h-100" alt="Salmon with Veggies">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Salmon with Veggies -->
+                
+                <!-- Start Spaghetti -->
+                <div class="col col-md-6 col-lg-3"> 
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-5 col-lg-12 order-2 order-md-1 order-lg-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pasta alla Bolognese <small>(meat/vegan)</small></h5>
+                                    <p class="card-text">spaghetti or penne with meat sauce or tempeh sauce.</p>
+                                    <p class="card-text fw-bold">&euro;4.29</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-12 order-1 order-md-2 order-lg-1">
+                                <img src="img/main4_spaghetti_new.jpg" class="img-fluid rounded-start h-100" alt="Pasta alla Bolognese">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Spaghetti -->
+
+            </div>  <!--END "Main" Grid --> 
+
+        </section> <!-- END  "Main" Section -->
+
+
+
+        <!--******************* DESSERTS SECTION *******************-->
+        <section class="m-4 mt-md-3"> <!--START  "Desserts" Section--> 
+            <h2 class="text-center m-3 m-md-4">Desserts</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 g-xxl-5 px-2 px-md-4 pb-4 mx-auto"> <!--Start "Main" Grid --> 
+                <!-- Start Mouse Cake -->
+                <div class="col col-md-6 col-lg-3"> 
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-5 col-lg-12 order-2 order-md-1 order-lg-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mouse Cake</h5>
+                                    <p class="card-text">One slice of a chocolate mouse cake.</p>
+                                    <p class="card-text fw-bold">&euro;1.99</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-12 order-1 order-md-2 order-lg-1">
+                                <img src="img/dessert1_mousecake_new.jpg" class="img-fluid rounded-start h-100" alt="Mouse Cake">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Mouse Cake -->
+
+                <!-- Start Berrie Plate -->
+                <div class="col col-md-6 col-lg-3"> 
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-12 col-md-5 col-lg-12 order-2 order-md-1 order-lg-2">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Berrie Plate <small>(vegan)</small></h5>
+                                        <p class="card-text">Small plate with mixed berries. About 1 cup in total.</p>
+                                        <p class="card-text fw-bold">&euro;3.29</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-7 col-lg-12 order-1 order-md-2 order-lg-1">
+                                    <img src="img/dessert2_berryplate_new.jpg" class="img-fluid rounded-start h-100" alt="Plate of Berries">
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End Berrie Plate -->
+
+                <!-- Start Pancakes with Honey -->
+                <div class="col col-md-6 col-lg-3"> 
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-5 col-lg-12 order-2 order-md-1 order-lg-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pancakes with Honey</h5>
+                                    <p class="card-text">Freshly made pancakes fried in coconut oil and served with honey.</p>
+                                    <p class="card-text fw-bold">&euro;3.95</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-12 order-1 order-md-2 order-lg-1">
+                                <img src="img/dessert3_pancakehoney_new.jpg" class="img-fluid rounded-start h-100" alt="Pancakes with Honey">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Pancakes with Honey -->
+                
+                <!-- Start Sundae -->
+                <div class="col col-md-6 col-lg-3"> 
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-5 col-lg-12 order-2 order-md-1 order-lg-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sundae</h5>
+                                    <p class="card-text">One large vanilla sundae served with chocolate syrup &amp; cornets.</p>
+                                    <p class="card-text fw-bold">&euro;4.55</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-12 order-1 order-md-2 order-lg-1">
+                                <img src="img/dessert4_sundae_new.jpg" class="img-fluid rounded-start h-100" alt="Sundae">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Sundae -->
+
+            </div>  <!--END "Desserts" Grid --> 
+
+        </section> <!-- END  "Desserts" Section -->
 
 
     </div> <!-- END MAIN CONTAINER -->
