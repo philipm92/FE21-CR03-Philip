@@ -4,8 +4,12 @@
     background-color: $bg-color !important;
 }
 
-.own-image {
-    max-width:100%;
+// .own-image {
+//     max-width:100%;
+// }
+
+.own-grid-height {
+    min-height: 30vh;
 }
 
 // Crop Hero Image

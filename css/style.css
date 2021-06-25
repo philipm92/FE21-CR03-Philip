@@ -2,8 +2,8 @@
   background-color: rgba(153, 0, 18, 0.9) !important;
 }
 
-.own-image {
-  max-width: 100%;
+.own-grid-height {
+  min-height: 30vh;
 }
 
 .own-center-cropped {
