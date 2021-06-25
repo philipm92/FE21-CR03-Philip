@@ -24,11 +24,17 @@
 //     font-size: 62.5% !important; /* Default is 10px now */
 // }
 
-// body {
-//     font-size: 2rem !important; /* basically equals 30px now by default */
-// }
+body {
+    // font-size: 2rem !important; /* basically equals 30px now by default */
+    font-family: "Open Sans", Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto, Impact, Haettenschweiler, sans-serif  !important;
+    font-weight: bolder  !important;
+}
 
 
-h1, h2, h3, h4, h5, h6, footer {
-    text-shadow: 2px 2px 3px rgba(0,0,0,1);
+header, footer {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.8) !important;
 }
