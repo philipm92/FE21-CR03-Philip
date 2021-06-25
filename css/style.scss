@@ -7,6 +7,19 @@
 .own-image {
     max-width:100%;
 }
+
+// Crop Hero Image
+.own-center-cropped {
+    //background: linear-gradient(rgba(255, 255, 255,0), $bg-color), url('img/hero1.jpg') !important;
+    // background-image: url('img/hero1.jpg') !important;
+    // height:25vh !important;
+    object-fit: none !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+
+}
+
 // html {
 //     font-size: 62.5% !important; /* Default is 10px now */
 // }
@@ -16,6 +29,6 @@
 // }
 
 
-/*h1, h2, h3, h4, h5, h6 {
-    text-align: center;
-}*/
+h1, h2, h3, h4, h5, h6, footer {
+    text-shadow: 2px 2px 3px rgba(0,0,0,1);
+}
