@@ -4,24 +4,66 @@
     background-color: $bg-color !important;
 }
 
-// .own-image {
-//     max-width:100%;
-// }
 
-.own-grid-height {
-    min-height: 30vh;
+.own-card-height {
+    min-height: auto !important;
+    overflow: hidden !important; 
+}
+
+
+// Mimicking bootstrap tablet breakpoint
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .own-card-height {
+        min-height: 45vh !important;
+    }
+
+    div > img {
+        min-height: 45vh !important;
+    }
+}
+
+// Mimicking bootstrap desktop breakpoint
+@media screen and (min-width: 992px) {
+    .own-card-height {
+        min-height: 50vh !important;
+    }
+
+    div > img {
+        min-height: auto !important;
+    }
+}
+
+
+// Hover Effect
+div > img {
+    overflow: hidden !important; 
+    // max-height: 30vh !important;
+    min-width: 100% !important;
+    transform-origin: 65% 75% !important;
+    filter: brightness(100%) !important;
+    transition: transform 1000ms, filter 2000ms ease !important;
+    &:hover {
+        filter: brightness(120%) !important;
+        transition: transform 500ms ease, filter 1000ms ease !important;
+        transform: scale(1.1) !important;
+      }
 }
 
 // Crop Hero Image
-.own-center-cropped {
-    //background: linear-gradient(rgba(255, 255, 255,0), $bg-color), url('img/hero1.jpg') !important;
-    // background-image: url('img/hero1.jpg') !important;
-    // height:25vh !important;
-    object-fit: none !important;
+.own-home-bgimage {
+    background: linear-gradient(rgba(129, 125, 125, 0), $bg-color), url('../img/hero1.jpg') !important;
+    height: 25vh !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-size: 100% !important;
+}
 
+.own-review-bgimage {
+    background: linear-gradient(rgba(129, 125, 125, 0), $bg-color), url('../img/hero2.jpg') !important;
+    height: 25vh !important;
+    background-position: 40% 35% !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
 }
 
 // .own-navbar-inner {

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Adding "Open Sans Regular 400" from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Adding "Roboto Regular 400" from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Own CSS File -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Code Review 3 - Home</title>
+  </head>
+  <body class="d-flex flex-column min-vh-100 bg-white">
+    
+    <!-- START MAIN CONTAINER -->
+    <div class="container-fluid bg-white p-0 m-0">
+        <!--******************* HEADER *******************-->
+        <!-- START "Header" -->
+        <header class="own-bgcolor text-white p-2">
+            <h1 class="text-center m-0">CF Restaurant</h1>
+        </header> <!-- END "Header" -->
+
+        <!--******************* HERO IMAGE *******************--> <!-- Start "Hero" Image -->
+        <!-- <div class="bg-image own-center-cropped" style="background-image: linear-gradient(rgba(255,255,255,0), rgba(153, 0, 18, 1)), url('img/hero1.jpg');height:25vh;"> -->
+        <div class="bg-image own-review-bgimage">
+            <!-- <div class="bg-image own-center-cropped"> -->
+        </div>
+        <!-- END "Hero" Image -->
+
+        <!--******************* NAVBAR *******************-->
+        <!-- START "Navbar" right -->
+        <nav class="navbar navbar-expand-lg navbar-dark own-bgcolor">
+            <div class="container-fluid">
+              <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav fw-bolder">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.htm">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#review">Review</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </nav> <!-- END "Navbar" Right -->  
+
+        <!--******************* STARTER SECTION *******************-->
+        <section class="m-4 mt-md-3"> <!--START  "Starter" Section--> 
+            <h2 class="text-center m-3 m-md-4">Reviews</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 g-xxl-5 px-2 px-md-4 pb-4 mx-auto"> <!--Start "Starter" Grid --> 
+                <!-- Start Beef Soup -->
+                <div class="col col-md-6 col-lg-3">
+                    <div class="card own-card-height">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-5 col-lg-12 order-2 order-md-1 order-lg-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Beef Soup</h5>
+                                    <p class="card-text">Soup made with home-made bone broth &amp; mirepoix</p>
+                                     <p class="card-text fw-bold">&euro;4.95</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-12 order-1 order-md-2 order-lg-1">
+                                <img src="img/starter1_beefsoup_new.jpg" class="img-fluid rounded-start h-100" alt="Beef Soup">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Beef Soup -->
+
+                <!-- Start Pumpkin Soup -->
+                <div class="col col-md-6 col-lg-3">
+                    <div class="card own-card-height">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-5 col-lg-12 order-2 order-md-1 order-lg-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pumpkin Soup <small>(vegan)</small></h5>
+                                    <p class="card-text">Pumpkin soup made with coconut milk &amp; carrots.</p>
+                                    <p class="card-text fw-bold">&euro;3.99</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-12 order-1 order-md-2 order-lg-1">
+                                <img src="img/starter2_pumpkinsoup_new.jpg" class="img-fluid rounded-start h-100" alt="Pumpkin Soup (vegan)">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Pumpkin Soup -->
+
+
+                <!-- Start Smoothie -->
+                <div class="col col-md-6 col-lg-3">
+                    <div class="card own-card-height">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-5 col-lg-12 order-2 order-md-1 order-lg-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Smoothie (vegan)</h5>
+                                    <p class="card-text">Made with avocado, seasonal fruits, flaxseeds &amp; almond milk.</p>
+                                    <p class="card-text fw-bold">&euro;3.49</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-12 order-1 order-md-2 order-lg-1">
+                                <img src="img/starter3_smoothie_new.jpg" class="img-fluid rounded-start h-100" alt="Pumpkin Soup (vegan)">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Smoothie -->
+                
+                <!-- Start Sushi -->
+                <div class="col col-md-6 col-lg-3"> 
+                    <div class="card own-card-height">
+                        <div class="row g-0">
+                            <div class="col-12 col-md-5 col-lg-12 order-2 order-md-1 order-lg-2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sushi</h5>
+                                    <p class="card-text">6 pieces of maki &amp; 5 pieces of sushi (tuna/salmon/avocado mix).</p>
+                                    <p class="card-text fw-bold">&euro;11.90</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-7 col-lg-12 order-1 order-md-2 order-lg-1">
+                                <img src="img/starter4_sushi_new.jpg" class="img-fluid rounded-start h-100" alt="Sushi">
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Sushi -->
+            </div>  <!--END "Starter" Grid --> 
+
+        </section> <!-- END  "Starter" Section -->
+
+
+
+    </div> <!-- END MAIN CONTAINER -->
+    <footer class="mt-auto own-bgcolor text-white text-center p-3">
+        <small>&copy; CF Restaurant 2021</small> 
+        <br><small>Code Street 25/06, 21st Vienna</small> 
+    </footer>
+
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <!-- Own JS File -->
+    <script type="text/javascript"  src="js/script.js"></script>
+  </body>
+</html>
