@@ -3,9 +3,12 @@
   overflow: hidden !important;
 }
 
+.own-card-height div > img {
+  min-height: auto !important;
+}
+
 div > img {
   overflow: hidden !important;
-  min-width: 100% !important;
   -webkit-transform-origin: 65% 75% !important;
           transform-origin: 65% 75% !important;
   -webkit-filter: brightness(100%) !important;
@@ -29,19 +32,19 @@ div > img:hover {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .own-card-height {
-    min-height: 45vh !important;
+    min-height: 32vh !important;
   }
-  div > img {
-    min-height: 45vh !important;
+  .own-card-height div > img {
+    min-height: 32vh !important;
   }
 }
 
 @media screen and (min-width: 992px) {
   .own-card-height {
-    min-height: 65vh !important;
+    min-height: 25rem !important;
   }
   div > img {
-    min-height: 65vh !important;
+    min-height: auto !important;
   }
 }
 /*# sourceMappingURL=home.css.map */
