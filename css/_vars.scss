@@ -1,1 +1,6 @@
-$bg-color: rgba(153, 0, 18, 0.9); // red wine
+$bg-red-value: 153;
+$bg-blue-value: 0;
+$bg-green-value: 18;
+$bg-alpha-value: 1;
+$bg-color: rgba($bg-red-value, $bg-blue-value, $bg-green-value, $bg-alpha-value); // red wine
+
