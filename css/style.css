@@ -21,7 +21,6 @@ header, footer {
   height: 25vh !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
-  background-size: 100% !important;
 }
 
 .own-review-bgimage {
@@ -30,6 +29,5 @@ header, footer {
   height: 25vh !important;
   background-position: 40% 35% !important;
   background-repeat: no-repeat !important;
-  background-size: 100% !important;
 }
 /*# sourceMappingURL=style.css.map */
